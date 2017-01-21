@@ -19,7 +19,7 @@
 * PM> Update-Database
 * PM> Add-Migration NameMigration
 
-
+**change model:**
 ```cs
 protected override OnModelCreating(DbModelBuilder modelBuilder) 
 {
