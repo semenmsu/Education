@@ -21,7 +21,11 @@
 
 
 ```cs
-protected override OnModelCreating(DbModelBuilder modelBuilder) {}
+protected override OnModelCreating(DbModelBuilder modelBuilder) 
+{
+	modelBuilder.convetions.Remove<PluralizeingTableNameConvention>();
+	base.OnModelCreating(modelBuilder);
+}
 ```
 
 
