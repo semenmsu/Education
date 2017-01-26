@@ -18,8 +18,10 @@
 * wc *(eng. word count, number of lines, words and characters)*
 * sort *(takes the standart input and orders it alphabetically)*
 * uniq *(stands for "unique" and filters out adjacent, duplicate lines in a file)*
-* grep *(search **G**lobally for lines matching the **R**egular **E**xpression, and **P**rint them)*
+* grep *(search Globally for lines matching the Regular Expression, and Print them)*
 * sed *(stream editor, similar to find and replace)*
+* history *(history of commands that were entered in current session)*
+* env *(returns a list of the environment variables for the current user)*
 
 ###With options:
 
@@ -33,3 +35,33 @@
 * stdin *(standard input)*
 * stdout *(standard output)*
 * stderr *(standard error)*
+
+### Environment settings:
+```~``` represents the user's home directory
+
+```.``` indicates a hidden file.
+
+The name **~/.bash_profile** is important, since thi is how the command line recognizes the bash profile.
+$ nano ~/.bash_profile
+
+$ source ~/.bash_profile - activates the changes in **~/.bash_profile** for the current session.
+
+alias pd = "pwd"  (inside .bash_profile) - allows you to create aliases
+
+export USER = "Jane Doe"
+
+$ echo $USER
+
+```PS1``` - is a variable that defines the makeup and style of the command prompt
+
+export PS1 = ">>" - change prompt
+
+### Environment Variable:
+* $HOME
+* $PATH
+
+### Nano:
+
+```Ctrl + O```  to save file
+
+```Ctrl + X``` to exit nano
