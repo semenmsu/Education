@@ -1,14 +1,14 @@
-#EntityFramework
+# EntityFramework
 ##
 
-###How Entity Framework Migrations Work:
+### How Entity Framework Migrations Work:
 - Enable migrations
 - Create migrations
 
 **Migration format**: YYYYMMDDHHSST_Name
   
 
-###the sequence of steps:
+### the sequence of steps:
 * Add EntityFramework (now 6.1.3) NuGet package.
 * Switch to the Package Manager Console (PowerShell console right within Visual Studio)
 * Select Default Project
@@ -30,7 +30,7 @@ protected override OnModelCreating(DbModelBuilder modelBuilder)
 
 
 
-###Resuources:
+### Resuources:
 * Michael L Perry, Architect and team lead at improving @michaellperry and [qedcode.com](http://qedcode.com)
 * [thedatafarm.com](http://thedatafarm.com) by JulieLerman
 * [Code First Migrations in Team Environments. Rowan Miller. MSDN.](https://msdn.microsoft.com/ru-ru/data/dn481501)
