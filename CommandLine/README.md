@@ -1,7 +1,7 @@
-#SHELL COMMANDS
+# SHELL COMMANDS
 ##
 
-###General purpose:
+### General purpose:
 
 * ls *(list)*
 * pwd *(print working directory)*
@@ -23,7 +23,7 @@
 * history *(history of commands that were entered in current session)*
 * env *(returns a list of the environment variables for the current user)*
 
-###With options:
+### With options:
 
 * ls -a *(list all contents, including hidden files and directories)*
 * ls -l *(list all contents of a directory in long format)*
